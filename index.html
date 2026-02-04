@@ -179,14 +179,27 @@
     });
 
     yesBtn.addEventListener("click", () => {
-      // Финальный экран: гифка + текст
-      mainCard.innerHTML = `
-        <div class="img-wrap">
-          <img src="fireworks.gif" alt="Fireworks"/>
-        </div>
-        <div class="yay">YAYYY!!!!</div>
-      `;
-    });
+  mainCard.innerHTML = `
+    <div class="img-wrap">
+      <img src="fireworks.gif" alt="Fireworks"/>
+    </div>
+
+    <div class="yay">YAYYY!!!!</div>
+
+    <div style="
+      margin-top: 14px;
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #111;
+      white-space: pre-line;
+    ">14.02.2026
+20:00
+centrale bistro by Evgeny Vikentev (в этот раз он там точно должен быть)
+
+D. M.</div>
+  `;
+});
   </script>
 </body>
 </html>
